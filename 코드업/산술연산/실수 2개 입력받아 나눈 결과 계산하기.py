@@ -1,3 +1,3 @@
 a, b = map(float, input().split())
 c = a/b
-print(format(c, ".2f"))
+print(format(c, ".3f"))
