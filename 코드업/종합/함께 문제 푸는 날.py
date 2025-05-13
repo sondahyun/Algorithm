@@ -1,9 +1,3 @@
-import math
-a, b, c = map(int, input().split())
-print(a*b*c/math.gcd(a, b, c))
-
-
-"""
 a, b, c = map(int, input().split())
 d = 1
 while True:
@@ -12,4 +6,5 @@ while True:
         break
     else:
         d+=1
-"""
+
+# 여러개의 숫자는 math 라이브러리를 이용할 수 없음 (python 기본 math.gcd()는 인자가 2개까지 가능)

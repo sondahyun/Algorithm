@@ -15,7 +15,7 @@ for _ in range(n):
             badokpan[a[2]-1][a[3]-1+i] = 1
     stick.append(a)
 
-for i in range(w):
-    for j in range(h):
+for i in range(h):
+    for j in range(w):
         print(badokpan[i][j], end=" ")
     print()

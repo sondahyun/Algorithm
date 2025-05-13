@@ -9,9 +9,9 @@ num = int(input())
 for i in range(num):
     x, y = map(int, input().split())
     for j in range(19):
-        badokpan[x][j] = 0 if badokpan[x][j] == 1 else 1
+        badokpan[x-1][j] = 0 if badokpan[x-1][j] == 1 else 1
     for j in range(19):
-        badokpan[j][y] = 0 if badokpan[j][y] == 1 else 1
+        badokpan[j][y-1] = 0 if badokpan[j][y-1] == 1 else 1
 
 for i in range(19):
     for j in range(19):
