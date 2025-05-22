@@ -1,0 +1,13 @@
+{
+    // Code Runner 전용 설정
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "python3 -u"
+    },
+    "code-runner.cwd": "${fileDirname}",
+    // Python 확장 전용 설정 (▶ 실행 시 현재 파일 디렉토리로 이동)
+    "python.terminal.executeInFileDir": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.fileNameWithoutExt": true,
+}
