@@ -1,3 +1,4 @@
+# 값이 특정 범위에 속하는 데이터의 개수 구하기
 from bisect import bisect_left, bisect_right
 import sys
 sys.stdin = open("input.txt", "r")
